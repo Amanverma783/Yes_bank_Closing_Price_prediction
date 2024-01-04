@@ -30,7 +30,7 @@ Step 05: Hyperparameter Fine Tunning: hoose the best values for each of the para
 # 2. Top Data Insights
 
 * Date column is of 'object' datatype we have to convert it to 'datetime'.
-* Since we are trying to track variation in stock price on different dates, it makes sense to set this column as index.
+
 * As we can see there are some outliers present in our data. We will need to deal with these before proceeding to modelling.
 * We can see that the stock price is rising up until 2018 when the fraud case involving Rana Kapoor happened after which the stock price has had a sharp decline.
 * There is a problem of multicollinearity. However since the dataset is so small and has just 3 independent features, multicollinearity is unavoidable here as 
